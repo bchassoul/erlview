@@ -1,4 +1,4 @@
-erlview
+erl_vue
 =====
 
 An OTP application

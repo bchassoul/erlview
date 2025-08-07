@@ -1,8 +1,8 @@
-{application, erlview, [
+{application, erl_vue, [
     {description, "An OTP application"},
     {vsn, "0.1.0"},
     {registered, []},
-    {mod, {erlview_app, []}},
+    {mod, {erl_vue_app, []}},
     {applications, [
         kernel,
         stdlib

@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc erlview top level supervisor.
+%% @doc erl_vue top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(erlview_sup).
+-module(erl_vue_sup).
 
 -behaviour(supervisor).
 

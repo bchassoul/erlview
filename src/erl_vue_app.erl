@@ -1,16 +1,16 @@
 %%%-------------------------------------------------------------------
-%% @doc erlview public API
+%% @doc erl_vue public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(erlview_app).
+-module(erl_vue_app).
 
 -behaviour(application).
 
 -export([start/2, stop/1]).
 
 start(_StartType, _StartArgs) ->
-    erlview_sup:start_link().
+    erl_vue_sup:start_link().
 
 stop(_State) ->
     ok.
